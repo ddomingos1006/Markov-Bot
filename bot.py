@@ -2,6 +2,9 @@ import random
 import time
 import sys
 import pyperclip
+'''
+Uses a bruteforce markov algorithm to create sentences from a previous database of text. Works best with 1-2 sentences. 
+'''
 def dynamic_print(data, percent):
     print('#### '+ str(data).zfill(7) + ', ', \
           str(round(percent*100, 1)).zfill(4), end = '% ')
